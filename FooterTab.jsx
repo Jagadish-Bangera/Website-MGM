@@ -3,41 +3,44 @@ import footerLogo from '../assets/MGM-footer-img.png';
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#f9f6f6] text-[#333] py-6 text-[14px]">
-      <div className="max-w-[1200px] mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-start md:items-center relative">
+    <footer className="bg-[#f9f6f6] text-[#333] py-3 text-[13px]">
+      <div className="max-w-[1200px] mx-auto px-4 md:px-8 flex flex-wrap justify-center md:justify-between items-center gap-y-6 text-center md:text-left">
 
-        {/* Left: Logo only */}
-        <div className="md:w-1/3 flex justify-start mb-6 md:mb-0">
+        {/* Logo */}
+        <div className="w-full md:w-1/3 flex justify-center md:justify-start">
           <img
             src={footerLogo}
             alt="MGM College logo"
-            className="w-[350px] h-auto"
+            className="w-[240px] h-auto"
           />
         </div>
 
-        {/* Center: Copyright and Links */}
-        <div className="md:w-1/3 flex justify-center text-center space-y-2 flex-col">
+        {/* Info & Links */}
+        <div className="w-full md:w-1/3 flex flex-col items-center space-y-2">
           <p>©2025 Mahatma Gandhi Memorial College, Udupi</p>
-          <div className="flex flex-wrap justify-center gap-2 text-[13px]">
-            <a href="#" className="hover:text-[#004080]">Terms and Conditions</a>
+          <div className="flex flex-wrap justify-center gap-2 text-[12px]">
+            <a href="#" className="hover:text-[#004080]">Terms of Use</a>
             <span className="text-[#999]">|</span>
             <a href="#" className="hover:text-[#004080]">Privacy Policy</a>
             <span className="text-[#999]">|</span>
             <a href="#" className="hover:text-[#004080]">Disclaimer</a>
           </div>
-          <p>Developed By MSc Students <span className="text-red-500">❤️</span></p>
+          <p>Developed by MSc Students 2022–25 <span className="text-red-500">❤️</span></p>
         </div>
 
-        {/* Right: Address and Social Icons */}
-        <div className="md:w-1/3 flex flex-col items-end space-y-3 text-right">
-          <p>📍 Kunjibettu, Udupi, Karnataka - 576106</p>
+        {/* Address & Social */}
+        <div className="w-full md:w-1/3 flex flex-col items-center md:items-end space-y-2 text-[12px]">
+          <p>📍 Kurunjibettu, Udupi, Karnataka - 576102</p>
           <p>
             ✉️ <a href="mailto:principal_mgm@yahoo.com" className="text-[#0066cc] hover:underline">principal_mgm@yahoo.com</a>
           </p>
-          <p>📞 0820-2520359, 0820-253041</p>
+          <p>📞 +91 820 252 2916</p>
 
           {/* Social Icons */}
-          <div className="flex text-[20px] text-[#0066cc] space-x-4 mt-2">
+          <div className="flex justify-center md:justify-end text-[18px] text-[#0066cc] space-x-3 mt-1">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook" />
+            </a>
             <a href="https://www.instagram.com/mgm_journalism_" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram" />
             </a>
@@ -46,9 +49,6 @@ export default function Footer() {
             </a>
             <a href="https://www.youtube.com/@MGM.Journalism" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-youtube" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-facebook" />
             </a>
           </div>
         </div>
