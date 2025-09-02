@@ -30,11 +30,11 @@ export default function Footer() {
 
         {/* Address & Social */}
         <div className="w-full md:w-1/3 flex flex-col items-center md:items-end space-y-2 text-[12px]">
-          <p>📍 Kurunjibettu, Udupi, Karnataka - 576102</p>
+          <p>📍 Kunjibettu, Udupi, Karnataka - 576106</p>
           <p>
-            ✉️ <a href="mailto:principal_mgm@yahoo.com" className="text-[#0066cc] hover:underline">principal_mgm@yahoo.com</a>
+            ✉️ <a href="mailto: principal_mgm@yahoo.co.in" className="text-[#0066cc] hover:underline"> principal_mgm@yahoo.co.in</a>
           </p>
-          <p>📞 +91 820 252 2916</p>
+          <p>📞  0820 - 2520359</p>
 
           {/* Social Icons */}
           <div className="flex justify-center md:justify-end text-[18px] text-[#0066cc] space-x-3 mt-1">
