@@ -25,7 +25,7 @@ export default function Footer() {
             <span className="text-[#999]">|</span>
             <a href="#" className="hover:text-[#004080]">Disclaimer</a>
           </div>
-          <p>Developed by MSc Students 2022–25 <span className="text-red-500">❤️</span></p>
+          <p>Developed by MSc Students 2024–26 <span className="text-red-500">❤️</span></p>
         </div>
 
         {/* Address & Social */}
